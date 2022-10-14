@@ -179,6 +179,7 @@ body {
 }
 .examples-item {
   border: 1px solid #eeeeee;
+  flex-basis: 270px;
 }
 .examples-item:nth-child(3n) {
   margin-right: 0;
@@ -264,6 +265,7 @@ body {
 }
 
 .section.about {
+  padding-top: 0;
 }
 .about-title {
   font-size: 36px;
@@ -302,8 +304,7 @@ body {
   gap: var(--wrap-size);
 }
 .team-item {
-  width: 270px;
-  height: 368px;
+  flex-basis: 270px;
   background: #fff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
